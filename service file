@@ -1,0 +1,8 @@
+[Unit]
+Description=My Shell Script
+
+[Service]
+ExecStart=/bin/bash /usr/local/bin/server.sh
+
+[Install]
+WantedBy=multi-user.target
